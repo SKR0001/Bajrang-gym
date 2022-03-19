@@ -1,0 +1,46 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .toolbar{
+      background-color: rgb(236, 167, 17);
+      position: fixed;
+      z-index: 4;
+  }
+  .example-icon{
+      background-color: rgb(255, 255, 255, 0);
+  }
+  .example-icon:hover{
+    background-color: #555;
+  }
+  #div2 img{
+    padding-top: 8px;
+  }
+  .upper-icon{
+    /* border: 2px solid black; */
+    height: 64px;
+    background-color: rgb(236, 167, 17);
+  }
+  #example-icon{
+    margin-left: 13px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+  #div1 img{
+    padding-top: 10px;
+    padding-left:1px ;
+    padding-right:1px ;
+  }
+  .button a{
+    width: 100%;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 6px 30px;
+  }
+  .button a:hover{
+    background-color: #555;
+    color: azure;
+    border-radius: 0px;
+  }
+  .sidenav-container{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg);
+  }

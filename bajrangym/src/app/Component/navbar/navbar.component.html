@@ -1,0 +1,43 @@
+<mat-sidenav-container fullscreen class="sidenav-container">
+    <mat-sidenav #sidenav mode="over">
+        <div class="upper-icon">
+            <button mat-icon-button (click)="sidenav.close()" class="example-icon" id="example-icon"
+                aria-label="Example icon-button with menu icon">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span id="div1"><img
+                    src="data:image/webp;base64,UklGRgQEAABXRUJQVlA4TPcDAAAvtQAKEE+koG0bxljHn8PrQAgJEv7vtSsgKPJ/NAdu20bSzPz/r7P3Jm0sCUgSOmA3cPSfAAKIDQFMGAQNIMAfIhACCPABGIDBRmEQgECIYGMAwBsb4IfCBgDBB+CGGAR/NIJGQYhUHbhw4UTHBpF444cADfCHAHw/xEKwsQA2RN4ARDB4Y0H88McAgAfEDREMRKEA2kBt2ybVbbM9YThJGzQzuz2tWQa1UtE1M4Q5MbPVGsOJfrd2Xs2upHyeiej/BBh/411RlhI3oKIxoTUC2yTzbQo9MPC7FKomd5PNlwJVvdb8OxArCxiLuqhWBeuBMgVtqSF0FtsbQl8Qg9tTqqpz2//40xSQTVR9wCxEHAmpRACGCQZ9C91j2Roit/wJqatEFLBHNikDtIvoQuoNxx7ybohllprxJwBticBh3NaG1BP1SIzlHpLiUTB3IheRTW4AQtwAxLDoZ+BJTn3X3VJTfuv6uaIBhmoXQkSA9lp6FYyYhEoPOfv0aGT+wcuVneN/OX4MyLsMZZCISIgIEUdaLRESZ3pCHbh7OkTuclyh9A8nbUZElEOqgSJLGVBtmDRNLDn7a5ia4jgP/OoklqEsXYDGjUgiALvYDoghZ1+H6DGO74G+3JAbQGRE2oAbhm3JduLuA7DIUQz05EgEFBmReqCVb9a27u4t8JijAmjPkQSgCZEQiPPpieWeuyPgJZBsvhSo6rXmGuDnHJF6oM30BnSZcbCX8W7I3f/A8vaUqurc9j9NAXkHaHWXiIG9iALVJgLaXNzLSHmwDzwaIrdC6jxQ6479BqWmiAoTLvSdEXlimXWyBoxTMwFnZc5EQFtA1xueF7aUkc9qXXfyBkBZSnImEVI3gF4mmbU8MZKyHTh57ssPjjTC2yCpp8Abhmvdop/Nki3t5L4vFxxFAV6G9TJEbAe2g/SQ9YVxMuUL7JsUZZdgS9uWTmwpN7zI5XzQllW9YTNPLLpue+fJBM/NfJAIs+lykLLZ7xlP7vGU5gOpz+KGcfAO2/PlGU9VXohnEbmQe9CJL6956nzRSOsdSBkWd7KOzBpfVpGr1JWffBERddEGlRknJ8iSN3sz1HQD1fhLfpAQaXMjyIE3/21Qm8nmixkXm5MdeaIMiTlaAtLeHA5uT2bI9qABY4XmgHpivDkV1v5C85lK+fOe57dCI0+Id/584fnzTKF599ZuvBn+m0eKvCiKqarkiSy9eGyYB+6evX67vKal00n2BeFkZ+XVw4XRJx+5wOxaXUSFQLzNLuai91tGyvjEfEtcpa4Q8ZArlDw2Q03700A1EhIv45GEyWMb1KY/yeaLGRebk5RIb2tZiIUS9RrW/DG4PZkh24M8AA=="></span>
+        </div>
+        <div class="button">
+            <a mat-button href="#aboutus" target="_self">About Us</a><br>
+            <a mat-button href="https://www.google.com/maps/place/BAJRANG+GYM+ROSERA/data=!4m5!3m4!1s0x39edf127b265001b:0xf6b48dfa4ae2d2a6!8m2!3d25.7475543!4d86.0375515?authuser=0&hl=en&rclk=1" target="_blank">Contact Us</a><br>
+            <a mat-button href="#workout" target="_self">Workout</a><br>
+            <a mat-button href="#ragistration" target="_self">Registration</a>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content class="sidenav-content">
+        <mat-toolbar class="toolbar">
+            <button mat-icon-button (click)="sidenav.open()" class="example-icon"
+                aria-label="Example icon-button with menu icon">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span id="div2"><img
+                    src="data:image/webp;base64,UklGRgQEAABXRUJQVlA4TPcDAAAvtQAKEE+koG0bxljHn8PrQAgJEv7vtSsgKPJ/NAdu20bSzPz/r7P3Jm0sCUgSOmA3cPSfAAKIDQFMGAQNIMAfIhACCPABGIDBRmEQgECIYGMAwBsb4IfCBgDBB+CGGAR/NIJGQYhUHbhw4UTHBpF444cADfCHAHw/xEKwsQA2RN4ARDB4Y0H88McAgAfEDREMRKEA2kBt2ybVbbM9YThJGzQzuz2tWQa1UtE1M4Q5MbPVGsOJfrd2Xs2upHyeiej/BBh/411RlhI3oKIxoTUC2yTzbQo9MPC7FKomd5PNlwJVvdb8OxArCxiLuqhWBeuBMgVtqSF0FtsbQl8Qg9tTqqpz2//40xSQTVR9wCxEHAmpRACGCQZ9C91j2Roit/wJqatEFLBHNikDtIvoQuoNxx7ybohllprxJwBticBh3NaG1BP1SIzlHpLiUTB3IheRTW4AQtwAxLDoZ+BJTn3X3VJTfuv6uaIBhmoXQkSA9lp6FYyYhEoPOfv0aGT+wcuVneN/OX4MyLsMZZCISIgIEUdaLRESZ3pCHbh7OkTuclyh9A8nbUZElEOqgSJLGVBtmDRNLDn7a5ia4jgP/OoklqEsXYDGjUgiALvYDoghZ1+H6DGO74G+3JAbQGRE2oAbhm3JduLuA7DIUQz05EgEFBmReqCVb9a27u4t8JijAmjPkQSgCZEQiPPpieWeuyPgJZBsvhSo6rXmGuDnHJF6oM30BnSZcbCX8W7I3f/A8vaUqurc9j9NAXkHaHWXiIG9iALVJgLaXNzLSHmwDzwaIrdC6jxQ6479BqWmiAoTLvSdEXlimXWyBoxTMwFnZc5EQFtA1xueF7aUkc9qXXfyBkBZSnImEVI3gF4mmbU8MZKyHTh57ssPjjTC2yCpp8Abhmvdop/Nki3t5L4vFxxFAV6G9TJEbAe2g/SQ9YVxMuUL7JsUZZdgS9uWTmwpN7zI5XzQllW9YTNPLLpue+fJBM/NfJAIs+lykLLZ7xlP7vGU5gOpz+KGcfAO2/PlGU9VXohnEbmQe9CJL6956nzRSOsdSBkWd7KOzBpfVpGr1JWffBERddEGlRknJ8iSN3sz1HQD1fhLfpAQaXMjyIE3/21Qm8nmixkXm5MdeaIMiTlaAtLeHA5uT2bI9qABY4XmgHpivDkV1v5C85lK+fOe57dCI0+Id/584fnzTKF599ZuvBn+m0eKvCiKqarkiSy9eGyYB+6evX67vKal00n2BeFkZ+XVw4XRJx+5wOxaXUSFQLzNLuai91tGyvjEfEtcpa4Q8ZArlDw2Q03700A1EhIv45GEyWMb1KY/yeaLGRebk5RIb2tZiIUS9RrW/DG4PZkh24M8AA=="></span>
+            <span class="example-spacer"></span>
+            <a mat-icon-button href="#home" target="_self" class="example-icon"
+                aria-label="Example icon-button with home icon">
+                <mat-icon>home</mat-icon>
+            </a>
+            <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                <mat-icon>favorite</mat-icon>
+            </button>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                <mat-icon>share</mat-icon>
+            </button>
+        </mat-toolbar>
+        <app-home></app-home>
+        <app-aboutus></app-aboutus>
+        <app-workout></app-workout>
+        <app-ragistration></app-ragistration>
+    </mat-sidenav-content>
+</mat-sidenav-container>
